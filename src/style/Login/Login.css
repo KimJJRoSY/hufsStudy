@@ -1,0 +1,302 @@
+@import url("https://noonnu.cc/font_page/393");
+
+@font-face {
+  font-family: "PFStardust";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/PFStardust.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "bitbit";
+  src: url("//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff"),
+    url("//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff2");
+}
+
+.background {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #ffb8bc;
+  margin: 0;
+  padding: 0;
+}
+
+.loginHead {
+  position: relative;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  min-height: 17vh;
+  left: calc(40% - 240px / 2);
+  top: 7%;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.loginID {
+  position: absolute;
+  left: 25%;
+  top: 25%;
+
+  color: #fff;
+  font-family: DNF Bit Bit TTF;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 1000;
+  line-height: normal;
+
+  text-shadow: -5px 0 #15321c, 0 5px #15321c, 5px 0 #15321c, 0 -5px #15321c;
+  margin: 0;
+  padding: 0;
+}
+
+.loginbox {
+  position: absolute;
+  display: flex;
+  left: 25%;
+  top: 30%;
+  width: 50vw;
+  height: 5vh;
+
+  background: #ffe9ea;
+  border-radius: 40px;
+
+  font-family: "PFStardust";
+  font-style: normal;
+  font-size: 50px;
+  color: #000000;
+
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.loginPW {
+  position: absolute;
+  left: 25%;
+  top: 40%;
+
+  color: #fff;
+  font-family: DNF Bit Bit TTF;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 1000;
+  line-height: normal;
+  text-shadow: -5px 0 #15321c, 0 5px #15321c, 5px 0 #15321c, 0 -5px #15321c;
+  margin: 0;
+  padding: 0;
+}
+
+.loginPwBox {
+  position: absolute;
+  display: flex;
+  left: 25%;
+  top: 45%;
+  width: 50vw;
+  height: 5vh;
+
+  background: #ffe9ea;
+  border-radius: 40px;
+  font-family: "PFStardust";
+  font-style: normal;
+
+  font-size: 50px;
+  color: #000000;
+
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.LoginButton {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  left: 30%;
+  width: 40vw;
+  height: 7vh;
+  top: 57%;
+}
+
+.askMemberYet {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  left: 30%;
+  width: 40vw;
+  bottom: 20%;
+
+  font-family: "PFStardust";
+  font-style: normal;
+  font-size: 50px;
+
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+.JoinButton {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  left: 30%;
+  width: 40vw;
+  height: 7vh;
+  bottom: 10%;
+}
+
+.loginErrorID {
+  position: absolute;
+  display: flex;
+  left: 33%;
+  top: 25%;
+  width: 50vw;
+  height: 5vh;
+
+  font-family: "PFStardust";
+  font-style: normal;
+  font-size: 50px;
+  color: #b45f66;
+}
+
+.loginErrorPW {
+  position: absolute;
+  display: flex;
+  left: 33%;
+  top: 40%;
+  width: 50vw;
+  height: 5vh;
+
+  font-family: "PFStardust";
+  font-style: normal;
+  font-size: 50px;
+  color: #b45f66;
+}
+
+@media screen and (max-width: 390px) {
+  .loginHead {
+    position: absolute;
+    width: 217px;
+    height: 122.37px;
+    left: 84px;
+    top: 59px;
+  }
+
+  .loginID {
+    position: absolute;
+    width: 35px;
+    height: 32px;
+    left: 37px;
+    top: 239px;
+
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 32px;
+    text-shadow: -1.3px 0 #15321c, 0 1.3px #15321c, 1.3px 0 #15321c,
+      0 -1.3px #15321c;
+  }
+
+  .loginbox {
+    position: absolute;
+    width: 320px;
+    height: 36px;
+    left: 37px;
+    top: 282px;
+
+    font-family: "PFStardust";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 55px;
+  }
+
+  .loginPW {
+    position: absolute;
+    width: 35px;
+    height: 32px;
+    left: 37px;
+    top: 349px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 32px;
+    text-shadow: -1.3px 0 #15321c, 0 1.3px #15321c, 1.3px 0 #15321c,
+      0 -1.3px #15321c;
+  }
+
+  .loginPwBox {
+    position: absolute;
+    width: 320px;
+    height: 36px;
+    left: 37px;
+    top: 390px;
+
+    background: #ffe9ea;
+    border-radius: 40px;
+    font-family: "PFStardust";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 55px;
+  }
+
+  .LoginButton {
+    position: absolute;
+    width: 240px;
+    height: 54.55px;
+    left: calc(50% - 240px / 2);
+    top: 480px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .askMemberYet {
+    position: absolute;
+    width: 160px;
+    height: 51px;
+    left: calc(50% - 154px / 2 - 1px);
+    top: 636px;
+
+    font-family: "PFStardust";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 51px;
+  }
+
+  .JoinButton {
+    position: absolute;
+    width: 240px;
+    height: 54.55px;
+    left: calc(50% - 240px / 2 - 1px);
+    bottom: 100px;
+  }
+
+  .loginErrorID {
+    position: absolute;
+    width: 156px;
+    height: 42px;
+    left: calc(53% - 156px / 2 - 25px);
+    top: 239px;
+
+    font-family: "PFStardust";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 42px;
+  }
+
+  .loginErrorPW {
+    position: absolute;
+    width: 252px;
+    height: 42px;
+    left: calc(50% - 156px / 2 - 25px);
+    top: 349px;
+
+    font-family: "PFStardust";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 42px;
+  }
+}
